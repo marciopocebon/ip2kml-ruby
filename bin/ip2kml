@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'ip2kml'
+
+i2 = Ip2kml.new($stdin.readlines)
+i2.generate_kml_file
+kml_file = i2.get_kml_file
+puts kml_file
+
