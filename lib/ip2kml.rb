@@ -23,6 +23,16 @@ class Ip2kml
     <Placemark>
       <name>#{ip_data['ip']}</name>
         <description>
+          Country code: #{ip_data['country_code']}
+          Country name: #{ip_data['country_name']}
+          Region code: #{ip_data['region_code']}
+          Region name: #{ip_data['region_name']}
+          City: #{ip_data['city']}
+          Zip code: #{ip_data['zip_code']}
+          Time zone: #{ip_data['time_zone']}
+          Latitude: #{ip_data['latitude']}
+          Longitude: #{ip_data['longitude']}
+          Metro code: #{ip_data['metro_code']}
         </description>
       <Point>
         <coordinates>#{ip_data['longitude']},#{ip_data['latitude']},0</coordinates>
