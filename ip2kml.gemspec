@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ip2kml'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.date        = '2015-11-22'
   s.summary     = "IP 2 KML"
   s.description = "Generate Google Earth KML files from a list of IP addresses"

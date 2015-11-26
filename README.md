@@ -32,5 +32,7 @@ instance of freegeoip. https://github.com/fiorix/freegeoip
 ## Contact
 
 nanodano@devdungeon.com
+
 http://www.devdungeon.com
+
 https://github.com/nanodano
